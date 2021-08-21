@@ -8,7 +8,10 @@
     background-color: #05aecc !important;
 }
 .bg-color-custom-3 {
-    background-color: #f0626e;
+    background-color: #f0626e !important;
+}
+.bg-color-custom-4 {
+    background-color: rgba(53, 41, 79, 0.6) !important;
 }
 .text-color-custom-3 {
     color: #f0626e !important;
@@ -46,4 +49,69 @@
 }
 .nav-reg a:hover {
     background-color: white !important;
+}
+.mhs-100 {
+    max-height: 620px;
+}
+.inp .input-group-text {
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+    font-size: 41px;
+}
+.inp input {
+    border-radius: 0;
+    box-shadow: 0 6px 15px rgb(0 0 0 / 15%);
+    text-align: center;
+}
+.inp input::placeholder {
+    text-align: center;
+}
+.card-1-text {
+    position: absolute;
+    bottom: 56px;
+    background-color: rgba(53, 41, 79, 0.6);
+    max-width: 391px;
+}
+.card-2-text {
+    position: absolute;
+    bottom: 14px;
+    width: 100%;
+    max-width: 391px;
+}
+.card-3-text {
+    position: absolute;
+    bottom: 9px;
+    background-color: rgba(53, 41, 79, 0.6);
+    max-width: 290px;
+    font-size: 13px;
+}
+.card-4-text {
+    position: absolute;
+    bottom: 25px;
+    right: 0;
+    background-color: rgba(53, 41, 79, 0.6);
+    max-width: 290px;
+    font-size: 13px;
+    opacity: 0;
+    transition: .8s;
+}
+.card-5-text {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(53, 41, 79, 0.6);
+    max-width: 290px;
+    font-size: 13px;
+    opacity: 0;
+    transition: .8s;
+}
+.card-2-text b {
+    position: relative;
+    top: 7px;
+}
+.text-img {
+    position: relative;
+}
+.text-img:hover .card-4-text, .text-img:hover .card-5-text {
+    opacity: 1;
 }
