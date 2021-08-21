@@ -1,0 +1,49 @@
+.nav-header li{
+    background-color: black;
+}
+.bg-color-custom-1 {
+    background-color: #f6f6f6;
+}
+.bg-color-custom-2 {
+    background-color: #05aecc !important;
+}
+.bg-color-custom-3 {
+    background-color: #f0626e;
+}
+.text-color-custom-3 {
+    color: #f0626e !important;
+}
+.nav-header-1 .nav-link {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.logo img {
+    width: 120px;
+}
+.fs-13 {
+    font-size: 13px;
+}
+@media screen and (max-width: 780px) {
+    .logo {
+        justify-content: center !important;
+    } 
+    .nav-header-1 ul {
+        justify-content: center !important;
+    }
+}
+.logo {
+    justify-content: flex-end;
+}
+.nav-header-1 ul {
+    justify-content: flex-end;
+}
+.nav-categories a:focus{
+    background-color: white !important;
+    color: #f0626e !important;
+}
+.nav-header-1 a:hover{
+    color: #f0626e !important;
+}
+.nav-reg a:hover {
+    background-color: white !important;
+}
