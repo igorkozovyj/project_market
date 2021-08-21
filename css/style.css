@@ -131,6 +131,13 @@
     opacity: 0;
     transition: .8s;
 }
+.card-7-text {
+        position: absolute;
+        top: 14px;
+        left: 0;
+        max-width: 290px;
+        font-size: 20px;
+}
 .card-2-text b {
     position: relative;
     top: 7px;
@@ -149,6 +156,27 @@
     transition: .8s;
     background-color: #05aecc !important;
 }
+.controll-block-2 a:hover {
+    transition: .8s;
+    background-color: #f0626e !important;
+}
 .controll-block-1 i {
     font-size: 20px;
+}
+.price {
+    font-size: 22px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product a:hover {
+    color: white;
+    transition: .8s;
+    background-color: #f0626e !important;
+}
+.product-2 a:hover {
+    color: white;
+    transition: .8s;
+    background-color: #05aecc !important;
 }
