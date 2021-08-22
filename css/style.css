@@ -190,3 +190,18 @@
 .hov-to-button:hover {
     background-color: #3c3c3c !important;
 }
+.d-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}  
+@media screen and (max-width:1000px) {
+    .d-mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }  
+}
+.dropdown-menu {
+    background: rgb(255 255 255 / 83%) !important;
+}
